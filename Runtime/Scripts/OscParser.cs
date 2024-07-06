@@ -8,7 +8,7 @@ namespace OscCore
     public unsafe class OscParser
     {
         // TODO - make these preferences options
-        public const int MaxElementsPerMessage = 32;
+        public const int MaxElementsPerMessage = 64;
         public const int MaxBlobSize = 1024 * 256;
 
         internal readonly byte[] Buffer;
